@@ -1,0 +1,78 @@
+/* Specific styles for Services page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f9f4; /* Light green background */
+    color: #333; /* Dark grey for readable text */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: #1976d2; /* Elegant dark blue for headings */
+}
+
+/* Service Page Main Section */
+#services {
+    padding: 60px;
+    background-color: #f4f9f4;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: #388e3c; /* Green for highlighting service title */
+}
+
+/* Service Details */
+.service-detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-detail img {
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+
+.service-info {
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-info h3 {
+    font-size: 1.8em;
+    color: #388e3c; /* Matching green color for services headings */
+    margin-bottom: 15px;
+}
+
+.service-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    /* Responsive for mobile view */
+    .service-detail {
+        flex-direction: column;
+    }
+
+    .service-detail img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .service-info {
+        width: 100%;
+    }
+}
+
