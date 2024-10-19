@@ -1,6 +1,14 @@
 # cavision-website
 CaVision Website Initial Setup
 
+# CaVision Consulting Website
+
+This repository contains the source code for the **CaVision Consulting** website. The website showcases the company's services, upcoming projects, products, insights, and success stories.
+
+## Project Structure
+
+The project follows a modular and component-based structure, making it easy to maintain, extend, and update. Here's an overview of the folder structure:
+
 /cavision-website/
 │
 ├── /css/
@@ -30,4 +38,3 @@ CaVision Website Initial Setup
 │   └── insights.html
 ├── index.html
 └── README.md
-
